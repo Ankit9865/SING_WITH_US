@@ -1,0 +1,169 @@
+#head{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-color: lightpink;
+    color: mediumpurple;
+    padding:40px;
+    text-align: center;
+    text-shadow: 2px 2px 2px green;
+    margin: 5px;
+    border-radius: 20px;
+}
+#fakebtnmenu
+{
+    width: 35%;
+    float: left;
+}
+#btnmenu
+{
+    width: 30%;
+    float: left;
+    margin-bottom: 5px;
+}
+#btnmenu a
+{
+    color: black;
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+    border: 2px solid skyblue;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 1s;  /* This is not recommended*/
+}
+#btnmenu a:hover
+{
+    background-color: red;
+    font-weight: bold;
+    transform: translateX(5px);
+    color :aquamarine; 
+} 
+
+.card
+{
+    width: 40%;
+    margin-left: 10px;
+    float: left;
+}
+.eng{
+    background-image: url('image/story/6.jpg');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 100%;
+}
+.hin{
+    background-image: url('image/story/4.gif');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 100%;
+}
+.vid_title
+{
+    font-size: 40px;
+    width: 58%;
+    float: right;
+    color: #6C2DC7;
+    background-color: lightcyan;
+}
+#e-menu
+{
+    width: 40%;
+    float: left;
+}
+#e-menu a
+{
+    color: yellow;
+    background-image: url('image/story/7.gif');
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+    border: 2px solid orangered;
+    text-decoration: none;
+    transition-property: all;
+    /*transition-duration: 1s;*/  /* This is not recommended*/
+}
+#e-menu a:hover
+{
+    background-image: url('image/story/8.gif');
+    font-weight: bold;
+    transform: translateX(5px);
+    color :cyan;
+    border: 2px solid lightblue;
+}
+#h-menu
+{
+    width: 40%;
+    float: right;
+    margin-right: 10px;
+}
+#h-menu a
+{
+    color: yellow;
+    background-image: url('image/story/7.gif');
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+    border: 2px solid orangered;
+    text-decoration: none;
+    transition-property: all;
+    /*transition-duration: 1s;*/  /* This is not recommended*/
+}
+#h-menu a:hover
+{
+    background-image: url('image/story/8.gif');
+    font-weight: bold;
+    transform: translateX(10px);
+    color :aquamarine;
+    border: 2px solid lightblue;
+}
+#last
+{
+    width: 40%;
+    float: left;
+    margin: 10px;
+}
+#last a
+{
+    color: yellow;
+    background-image: url('image/story/7.gif');
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+    border: 2px solid orangered;
+    text-decoration: none;
+    transition-property: all;
+    /*transition-duration: 1s;*/  /* This is not recommended*/
+}
+#last a:hover
+{
+    background-image: url('image/story/8.gif');
+    font-weight: bold;
+    transform: translateX(10px);
+    color :aquamarine;
+    border: 2px solid lightblue;
+}
+.card-body
+{
+    background-image:url('image/cartoon/2.jpg');
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:mediumorchid;
+    
+}
+h3 b{
+    background-color: lightgoldenrodyellow;
+}

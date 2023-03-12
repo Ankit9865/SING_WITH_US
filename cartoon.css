@@ -1,0 +1,106 @@
+
+body {
+    margin: 5px;
+    padding: 0px;
+    background-image: url('image/ananya4.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#head{
+    background-image: url('image/cartoon/1.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow:2px 2px 2px black;
+    text-align: center;
+    font-weight: bold;
+    color:lightseagreen;
+    padding-top: 400px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.card-body
+{
+    background-image:url('image/cartoon/2.jpg');
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:mediumorchid;
+    
+}
+#menu
+{
+    width: 40%;
+    float: left;
+}
+#menufake
+{
+    margin-top: 15%;
+    width: 15%;
+    float: right;
+}
+#menu a
+{
+    color: black;
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+    border: 2px solid skyblue;
+    text-decoration: none;
+    transition-property: all;
+    /*transition-duration: 1s;*/  /* This is not recommended*/
+}
+#menu a:hover
+{
+    background-color: red;
+    font-weight: bold;
+    transform: translateX(10px);
+    color :aquamarine;
+}
+#content
+{
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+#footer a
+{
+    color: black;
+    background-color: lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+    width: 20%;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    transition-property: all;
+    /*transition-duration: 1s;*/  /* This is not recommended*/
+}
+#footer a:hover
+{
+    background-color: lightblue;
+    color: red;
+    font-weight: bold;
+    transform: translateX(5px);
+}
+.card
+{
+    border: 4px solid red;
+}
+h3 b{
+    background-color: lightgoldenrodyellow;
+}

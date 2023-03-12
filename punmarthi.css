@@ -1,0 +1,109 @@
+#heading{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-color: aqua;
+    color: red;
+    padding:50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px cyan;
+    margin: 5px;
+    border-radius: 20px;
+}
+#p-menu
+{
+    width: 40%;
+    float: left;
+}
+#p-menu a
+{
+    color: yellow;
+    background-image: url('image/story/7.gif');
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+    border: 2px solid orangered;
+    text-decoration: none;
+    transition-property: all;
+    /*transition-duration: 1s;*/  /* This is not recommended*/
+}
+#p-menu a:hover
+{
+    background-image: url('image/story/8.gif');
+    font-weight: bold;
+    transform: translateX(5px);
+    color :cyan;
+    border: 2px solid lightblue;
+}
+#m-menu
+{
+    width: 40%;
+    float: right;
+    margin-right: 10px;
+}
+#m-menu a
+{
+    color: yellow;
+    background-image: url('image/story/7.gif');
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+    border: 2px solid orangered;
+    text-decoration: none;
+    transition-property: all;
+    /*transition-duration: 1s;*/  /* This is not recommended*/
+}
+#m-menu a:hover
+{
+    background-image: url('image/story/8.gif');
+    font-weight: bold;
+    transform: translateX(10px);
+    color :aquamarine;
+    border: 2px solid lightblue;
+}
+#last
+{
+    width: 40%;
+    float: left;
+    margin: 10px;
+}
+#last a
+{
+    color: yellow;
+    background-image: url('image/story/7.gif');
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+    border: 2px solid orangered;
+    text-decoration: none;
+    transition-property: all;
+    /*transition-duration: 1s;*/  /* This is not recommended*/
+}
+#last a:hover
+{
+    background-image: url('image/story/8.gif');
+    font-weight: bold;
+    transform: translateX(10px);
+    color :aquamarine;
+    border: 2px solid lightblue;
+}
+.card-body
+{
+    background-image:url('image/cartoon/2.jpg');
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:mediumorchid;
+    
+}
+h3 b{
+    background-color: lightgoldenrodyellow;
+}

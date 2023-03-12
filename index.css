@@ -1,0 +1,147 @@
+body {
+    margin: 5px;
+    padding: 0px;
+    background-image: url('image/index/9.jpg');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header {
+    background-image: url('image/index/8.jpg');
+    background-size: 100% 100%;
+    padding: 150px;
+}
+
+#comp p
+	{
+		animation-name: animate;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes animate
+	{
+		0% {color: red}
+		25% {color: green}
+		50% {color: blue}
+		75% {color: orange}
+		100% {color: yellow}
+	}
+
+#name {
+    width: 30%;
+    text-align: center;
+    float: left;
+    padding: 40px;
+}
+
+#comp {
+    width: 20%;
+    float: right;
+}
+
+#discr {
+    padding: 150px;
+    margin: 30px;
+    background-image: url('image/backg1.jpg');
+    background-color: orangered;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;   */
+    background-size: 100% 100%;
+}
+
+#txxt {
+    width: 40%;
+    float: left;
+}
+
+#txtimg {
+    width: 20%;
+    float: right;
+}
+#footer
+{
+    padding: 7px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+#footer p
+{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.card-body
+{
+    background-image:url('image/images.jpg');
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:mediumorchid;
+    
+}
+h3 b{
+    background-color: lightgoldenrodyellow;
+}
+@media only screen and (max-width: 800px) {
+
+    #txtsep {
+        width: 60%;
+        float: right;
+    }
+
+    #name {
+        width: 30%;
+        float: left;
+    }
+
+    #comp {
+        width: 20%;
+        float: right;
+    }
+
+    #txxt {
+        width: 40%;
+        float: left;
+    }
+
+    #txtimg {
+        width: 20%;
+        float: right;
+    }
+    #footer
+    {
+        padding: 7px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #name {
+        width: 100%;
+    }
+
+    #comp {
+        width: 100%;
+    }
+
+    #txxt {
+        width: 100%;
+    }
+
+    #txtimg {
+        width: 100%;
+    }
+
+    
+    #txtsep {
+        width: 100%;
+    }
+    #footer
+    {
+        padding: 10px;
+    }
+}
